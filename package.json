@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-carrotquest",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Gatsby плагин для Carrot quest",
   "main": "index.js",
   "scripts": {
