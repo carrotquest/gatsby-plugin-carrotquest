@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-plugin-carrotquest",
+  "version": "0.1.0",
+  "description": "Gatsby плагин для Carrot quest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "carrot quest",
+    "carrotquest.io",
+    "live-chat",
+    "chatbot"
+  ],
+  "author": "Nikolay Abdullin <addonion@gmail.com>",
+  "license": "MIT"
+}
