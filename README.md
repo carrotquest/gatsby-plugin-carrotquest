@@ -1,17 +1,13 @@
 # gatsby-plugin-carrotquest
 
-<img src="https://www.carrotquest.io/logos/ru-logo.svg" alt="Carrot quest logo" height="50"/>
+<img src="https://www.carrotquest.io/logos/ru-logo.svg" alt="carrot quest logo" height="50"/>
 
-To integrate [Carrot quest Conversational platform for business](https://www.carrotquest.io/) to your Gatsby website, you need to have an account with Carrot quest. [Sign up](https://www.carrotquest.io/panel/unauthorized/login/)
+Подключите платформу для коммуникации с пользователями [Carrot quest](https://www.carrotquest.io/) к вашему сайту на Gatsby. [Зарегистрируйтесь](https://www.carrotquest.io/panel/unauthorized/login/), установка сервиса займет 7 минут.
 
-With Carrot quest you can:
+Carrot quest поможет:
 
-1. Collect your users through all the channels including messengers. All users in one inbox, all channels in one user profile.
-2. Engage with every user on their terms. Chat, messengers, e-mail are in one user profile.  
-   Never lose track of conversation with your customer
-3. Save time for you team, create an automated customer service FAQ chatbot and knowledge base
-4. Accelerate growth throughout the customer lifecycle and engage more people with the help of communication tools
-5. Qualify leads and focus your sales team on hot ones. Provide the other with self-service <br>
+1.  Собирать больше лидов с сайта и передавать их в продажи или вести дальше по воронке автоматически.
+2.  Организовать общение с клиентами в одном окне, отвечать на вопросы пользователей 24/7 и при этом сократить нагрузку на команду поддержки. <br>
 
 ## Установка
 
@@ -19,7 +15,7 @@ With Carrot quest you can:
 yarn add gatsby-plugin-carrotquest
 ```
 
-or
+или
 
 ```shell
 npm i gatsby-plugin-carrotquest
@@ -29,9 +25,9 @@ npm i gatsby-plugin-carrotquest
 
 ## Как использовать
 
-To integrate [Live chat](https://www.carrotquest.io/chat/) and [Chatbots](https://www.carrotquest.io/chatbot/) to your Gatsby site, you need to have an account with Carrot quest. [Sign up](https://carrotquest.io/panel/unauthorized/register/).
+Для установки [бизнес-чата](https://www.carrotquest.io/chat/) и [чат-бота](https://www.carrotquest.io/chatbot/) на ваш Gatsby сайт, вам необходимо [создать аккаунт Carrot quest](https://carrotquest.io/panel/unauthorized/register/).
 
-Upon obtaining your `CARROTQUEST_ID`, you need to modify your `gatsby-config.js` as follows:
+После регистрации возьмите `CARROTQUEST_ID`, настройте свой файл `gatsby-config.js` как в примере:
 
 ```js
 // В вашем gatsby-config.js
