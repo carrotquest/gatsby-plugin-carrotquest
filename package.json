@@ -16,5 +16,9 @@
     "chatbot"
   ],
   "author": "Nikolay Abdullin <addonion@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrotquest/gatsby-plugin-carrotquest"
+  }
 }
