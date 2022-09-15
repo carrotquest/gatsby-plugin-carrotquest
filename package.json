@@ -2,10 +2,16 @@
   "name": "gatsby-plugin-carrotquest",
   "version": "0.2.4",
   "description": "Gatsby плагин для Carrot quest",
+  "author": "Nikolay Abdullin <addonion@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrotquest/gatsby-plugin-carrotquest"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build script setup\""
+    "build": "babel src --out-dir .",
+    "prepare": "npm run build"
   },
   "keywords": [
     "gatsby",
@@ -15,10 +21,10 @@
     "live-chat",
     "chatbot"
   ],
-  "author": "Nikolay Abdullin <addonion@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carrotquest/gatsby-plugin-carrotquest"
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0"
   }
 }
