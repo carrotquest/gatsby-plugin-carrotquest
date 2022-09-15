@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-carrotquest",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Gatsby плагин для Carrot quest",
   "author": "Nikolay Abdullin <addonion@gmail.com>",
   "license": "MIT",
